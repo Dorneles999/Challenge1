@@ -1,0 +1,70 @@
+@font-face {
+  font-family: SF Pro Display;
+  src: url(../master/SFPRODISPLAYREGULAR.OTF)
+}
+
+
+#title-mainpage {
+  position: relative;
+  width: 467px;
+  height: 300px;
+  left: 0%;
+  right: 0%;
+  top: calc(50% - 300px / 2 - 68px);
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 84px;
+  line-height: 100px;
+  letter-spacing: -1px;
+  color: #232340;
+  letter-spacing: 1.5px;
+  border-radius: nullpx;
+}
+
+#paragraph-mainpage {
+  position: relative;
+  width: 367px;
+  height: 96px;
+  left: 0%;
+  right: 21.41%;
+  top: 77.98%;
+  bottom: 0%;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #606060;
+  border-radius: nullpx;
+}
+
+#button-mainpage {
+  position: relative;
+  width: 180px;
+  height: 64px;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  background: #5468e7;
+  border-radius: 8px;
+}
+
+#textbutton {
+  position: relative;
+  height: 24px;
+  left: 21.11%;
+  right: 20.56%;
+  top: calc(50% - 24px / 2);
+  letter-spacing: 0.7px;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 133%;
+  text-align: center;
+  color: #ffffff;
+}
+
+
