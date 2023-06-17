@@ -1,20 +1,42 @@
+body,
+* {
+  margin: 0;
+  padding: 0;
+}
+
 @font-face {
   font-family: SF Pro Display;
   src: url(../master/SFPRODISPLAYREGULAR.OTF);
+}
+
+#mainpage {
+  display: flex;
+  flex-wrap: wrap;
+  background: url("./images/3d\ +\ wall.png") top right no-repeat;
+}
+
+#nav-bar {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  margin: 64px 72px 0px 72px;
 }
 
 #logo-mainpage {
   position: relative;
   width: 159px;
   height: 40px;
-  left: 72px;
-  top: 76px;
-  background-color: #ededed;
 }
 
-#menu-mainpage ul {
-  position: absolute;
+#menu-mainpage {
   padding: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  width: 392px;
+  height: 100%;
   margin: 0px;
   background-color: #ededed;
   list-style: none;
@@ -31,7 +53,7 @@
 
 #menu-mainpage ul li a {
   padding: 2px 10px;
-  color: #5468e7;
+  color: #8b8b8b;
   text-align: center;
   text-decoration: none;
   font-family: "SF Pro Display";
@@ -63,6 +85,7 @@
   top: calc(50% - 24px / 2);
   font-family: "SF Pro Display";
   font-style: normal;
+  text-decoration: none;
   font-weight: 700;
   font-size: 18px;
   line-height: 24px;
@@ -70,76 +93,105 @@
   color: #ffffff;
 }
 
+#burguer-icon{
+  display: none;
+}
+
+#hero-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 110px 135px 278px;
+  width: 100%;
+}
+
+#text-mainpage {
+  gap: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
 #title-mainpage {
-  position: relative;
-  width: 467px;
-  height: 300px;
-  left: 0%;
-  right: 0%;
-  top: calc(50% - 300px / 2 - 68px);
   font-family: "SF Pro Display";
   font-style: normal;
   font-weight: 700;
   font-size: 84px;
   line-height: 100px;
-  letter-spacing: -1px;
   color: #232340;
   letter-spacing: 1.5px;
-  border-radius: nullpx;
-  background-color: #ededed;
+  width: 467px;
 }
 
 #paragraph-mainpage {
-  position: relative;
-  width: 367px;
-  height: 96px;
-  left: 0%;
-  right: 21.41%;
-  top: 77.98%;
-  bottom: 0%;
   font-family: "SF Pro Display";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 32px;
+  width: 367px;
   color: #606060;
-  border-radius: nullpx;
-  background-color: #ededed;
 }
 
 #secondbutton-mainpage {
-  position: relative;
-  width: 180px;
-  height: 64px;
-  left: 0%;
-  right: 0%;
-  top: 0%;
-  bottom: 0%;
-  background: #5468e7;
-  border-radius: 8px;
-}
-
-#textbutton2 {
-  position: relative;
-  height: 24px;
-  left: 21.11%;
-  right: 20.56%;
-  top: calc(50% - 24px / 2);
-  letter-spacing: 0.7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: "SF Pro Display";
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 133%;
   text-align: center;
+  text-decoration: none;
   color: #ffffff;
+  width: 180px;
+  height: 64px;
+  background: #5468e7;
+  border-radius: 8px;
 }
 
-#image-mainpage {
-  position: relative;
-  width: 1440px;
-  height: 1024px;
-  left: 70px;
-  top: -700px;
-  /*background-color: #ededed;*/
+@media screen and (max-width: 375px) {
+  #mainpage {
+    background: url("./images/IMG.png") top right no-repeat;
+  }
+  #nav-bar {
+    margin: 52px 32px 0;
+  }
+  #menu-mainpage {
+    display: none;
+  }
+  #logo-mainpage {
+    width: 128px;
+    height: 32px;
+  }
+  #firstbutton-mainpage {
+    display: none;
+  }
+
+  #burguer-icon {
+    display: block;
+  }
+
+  #hero-container {
+    padding: 50px 32px 392px;
+  }
+  #text-mainpage {
+    gap: 24px;
+  }
+  #title-mainpage {
+    font-size: 48px;
+    line-height: 56px;
+    width: 100%;
+  }
+  #paragraph-mainpage {
+    font-size: 16px;
+    line-height: 28px;
+    width: 100%;
+  }
+  #secondbutton-mainpage {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    width: 160px;
+    height: 56px;
+  }
 }
