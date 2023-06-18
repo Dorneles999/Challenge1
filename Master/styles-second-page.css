@@ -1,0 +1,298 @@
+#second-page {
+  display: flex;
+  padding-top: 128px;
+  padding-bottom: 169px;
+  background-color: #232340;
+}
+
+#column-secondpage {
+  display: flex;
+  flex-direction: column;
+  width: 335px;
+  height: 100%;
+  align-items: center;
+}
+
+#logo-symbol {
+  width: 24px;
+  height: 24px;
+}
+
+#years {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin-top: 296px;
+  gap: 102px;
+}
+
+#years > li:nth-child(4) {
+  color: #ffffff;
+}
+
+#years > li {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #8b8b8b;
+}
+
+#content-secondpage {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-right: 135px;
+}
+
+#header {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 94px;
+}
+
+#header-title {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+#first-title {
+  display: flex;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+  gap: 25px;
+}
+
+#first-title > span {
+  color: #8b8b8b;
+}
+
+#second-title {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 72px;
+  letter-spacing: -0.5px;
+  width: 668px;
+  color: #ffffff;
+}
+
+#button-years {
+  display: flex;
+}
+
+.button-group {
+  display: flex;
+  gap: 16px;
+}
+
+.arrow-left {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: url(./images/arrow.png) center no-repeat;
+  transform: rotate(180deg);
+  color: #ffffff;
+}
+
+.arrow-right {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: url(./images/arrow.png) #5468e7 center no-repeat;
+  color: #ffffff;
+}
+
+#years-mobile {
+  display: none;
+}
+
+#secondpage-mobile {
+  display: none;
+}
+
+#bottom-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 169px;
+}
+
+#text-secondpage {
+  gap: 40px;
+  display: flex;
+  flex-direction: column;
+  width: 468px;
+}
+
+#title-secondpage {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -0.5px;
+  width: 468px;
+  color: #ffffff;
+}
+
+#paragraph-secondpage {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #8b8b8b;
+}
+
+#button-secondpage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  width: 180px;
+  height: 64px;
+  background-color: #5468e7;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+#number-secondpage {
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  width: 402px;
+  height: 402px;
+  border-radius: 50%;
+  margin-top: 60px;
+}
+
+#number-secondpage > span {
+  font-size: 200px;
+  font-weight: 600;
+  line-height: 185px;
+}
+
+@media screen and (max-width: 375px) {
+  #second-page {
+    padding: 64px 0;
+  }
+  #column-secondpage {
+    display: none;
+  }
+
+  #content-secondpage {
+    padding: 0;
+  }
+
+  #header {
+    flex-direction: column;
+    align-items: start;
+    padding: 0 32px;
+  }
+
+  #first-title {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: #ffffff;
+  }
+
+  #second-title {
+    width: 226px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.4px;
+    color: #ffffff;
+  }
+
+  #button-years {
+    display: flex;
+    margin-top: 32px;
+    justify-content: space-between;
+    gap: 40px;
+  }
+
+  .arrow-left {
+    width: 48px;
+    height: 48px;
+  }
+
+  .arrow-right {
+    width: 48px;
+    height: 48px;
+  }
+
+  #years-mobile {
+    display: flex;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    align-items: center;
+    justify-content: space-between;
+    width: 96px;
+    padding: 0 24px;
+    color: #ffffff;
+  }
+
+  #secondpage-mobile {
+    display: block;
+  }
+
+  #secondpage-desktop {
+    display: none;
+  }
+
+  #bottom-section {
+    flex-direction: column;
+    align-items: start;
+    padding: 0 32px;
+  }
+
+  #text-secondpage {
+    width: 100%;
+  }
+
+  #title-secondpage {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    width: 311px;
+    letter-spacing: -0.2px;
+  }
+
+  #paragraph-secondpage {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    width: 311px;
+  }
+
+  #button-secondpage {
+    width: 160px;
+    height: 56px;
+  }
+
+  #number-secondpage {
+    justify-content: center;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    width: 310px;
+    height: 310px;
+    box-shadow: 0px 23px 51px rgba(0, 0, 0, 0.242297);
+  }
+
+  #number-secondpage > span {
+    font-size: 140px;
+    line-height: 142px;
+  }
+}
