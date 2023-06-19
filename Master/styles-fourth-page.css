@@ -71,6 +71,10 @@
 #content-fourthpage {
 }
 
+#card1-mobile {
+  display: none;
+}
+
 #section-card1 {
   background: url(./images/section-card1.png) center no-repeat;
   height: 700px;
@@ -135,6 +139,91 @@
 }
 
 #section-card1 > .arrow-right {
-    position: absolute;
-    right: 14%;
+  position: absolute;
+  right: 14%;
+}
+
+@media screen and (max-width: 375px) {
+
+  #fourth-page {
+    padding: 64px 32px 48px;
+  }
+
+  #header-fourthpage > .logo-symbol {
+    display: none;
+  }
+
+  #header-fourthpage > a {
+    display: none;
+  }
+
+  #view-button {
+    display: none;
+  }
+
+  #section-card1 > .arrow-right {
+    display: none;
+  }
+
+  #section-card1 {
+    background-image: none;
+  }
+
+  #card1-mobile {
+    background: url(./images/section-card1-mobile.png) #ffba79 center no-repeat;
+    display: flex;
+    height: 500px;
+    width: 100%;
+    border-radius: 17px;
+  }
+
+  #fourth-title1 {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  #fourth-title2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.4px;
+    width: 255px;
+  }
+
+  #header-fourthtitle > p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    width: 311px;
+  }
+
+  #feature-button {
+    width: 118px;
+    height: 28px;
+    border-radius: 14px;
+    font-weight: 600;
+    font-size: 10.2px;
+    line-height: 13px;
+    position: absolute; 
+    right: 55%; 
+    bottom: 36.4%;
+  }
+
+  #section-card1 > h1 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+    color: #232340;
+    width: 312px;
+  }
+
+  #section-card1 > p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #606060;
+    width: 228px;
+  }
 }

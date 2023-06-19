@@ -1,0 +1,253 @@
+#fifth-page {
+  display: flex;
+  padding: 128px 135px;
+  justify-content: space-between;
+  background: linear-gradient(
+    360deg,
+    rgba(255, 255, 255, 0.0001) 0%,
+    rgba(237, 229, 240, 0.504289) 100%
+  );
+}
+
+#content-fifthpage {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  align-self: flex-start;
+  justify-content: space-between;
+}
+
+#content-fifthpage > .logo-symbol {
+  display: flex;
+  align-self: flex-start;
+}
+
+#header-fifthcontent {
+  display: flex;
+  flex-direction: column;
+}
+
+#fifth-title1 {
+  display: flex;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #5468e7;
+  margin-bottom: 24px;
+  gap: 12px;
+}
+
+#fifth-title2 {
+  display: flex;
+  width: 468px;
+  font-weight: 700;
+  font-size: 110px;
+  line-height: 131px;
+  letter-spacing: -1.2px;
+  margin-bottom: 40px;
+  color: #232340;
+}
+
+#header-fifthcontent > p {
+  width: 367px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  margin-bottom: 42px;
+  color: #606060;
+}
+
+#arrow-header {
+  display: flex;
+  width: 158px;
+}
+
+#cards-fifthpage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+#cardjob1 {
+  flex-direction: row;
+  width: 568px;
+  height: 247px;
+  border-radius: 40px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 77px rgba(0, 0, 0, 0.171);
+}
+
+#content-cardjob1 {
+  padding: 64px 259px 107px 64px;
+}
+
+#content-cardjob1 > h1 {
+  display: flex;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -0.5px;
+  gap: 15px;
+  align-items: center;
+  width: 300px;
+  color: #232340;
+}
+
+#card-notification {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background: linear-gradient(180deg, #3a8fff 0%, #0837ae 100%);
+  border-radius: 50%;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+#content-cardjob1 > p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #606060;
+  margin-bottom: 29px;
+}
+
+#content-cardjob1 > img {
+  transform: rotate(180deg);
+}
+
+#cardjob2 {
+  flex-direction: row;
+  width: 568px;
+  height: 247px;
+  border-radius: 40px;
+  background: #232340;
+  box-shadow: 0px 0px 77px rgba(0, 0, 0, 0.171);
+}
+#content-cardjob2 {
+  padding: 64px 259px 107px 64px;
+}
+
+#content-cardjob2 > h1 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -0.5px;
+  color: #ffffff;
+}
+
+#content-cardjob2 > p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #606060;
+  margin-bottom: 29px;
+}
+
+@media screen and (max-width: 375px) {
+  #fifth-page {
+    padding: 64px 32px 32px;
+    flex-direction: column;
+  }
+
+  #contente-fifthpage {
+  }
+
+  #content-fifthpage > .logo-symbol {
+    display: none;
+  }
+
+  #header-fifthcontent {
+  }
+
+  #fifth-title1 {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  #fifth-title2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.4px;
+  }
+
+  #header-fifthcontent > p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    width: 311px;
+    color: #606060;
+  }
+
+  #arrow-header {
+    display: none;
+  }
+
+  #cards-fifthpage {
+    gap: 16px;
+  }
+
+  #cardjob1 {
+    width: 311px;
+    height: 175px;
+    border-radius: 24px;
+  }
+
+  #content-cardjob1 {
+    padding: 45px 84px 97px 40px;
+  }
+
+  #content-cardjob1 > h1 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+  }
+
+  #card-notification {
+    width: 24px;
+    height: 24px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: #ffffff;
+  }
+
+  #content-cardjob1 > p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  #cardjob1 > img {
+  }
+
+  #cardjob2 {
+    width: 311px;
+    height: 175px;
+    border-radius: 24px;
+  }
+
+  #content-cardjob2 {
+    padding: 45px 84px 97px 40px;
+  }
+
+  #content-cardjob2 > h1 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+  }
+
+  #content-cardjob2 > p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+  }
+}
