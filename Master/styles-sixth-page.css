@@ -1,0 +1,140 @@
+#sixth-page {
+  padding: 0 73px;
+}
+
+#content-sixthpage {
+  display: flex;
+  background-color: #5468e7;
+  border-radius: 40px;
+  flex-wrap: wrap;
+}
+
+#top-content {
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid #ffffff;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 128px;
+  padding-bottom: 176px;
+  gap: 40px;
+}
+#top-content > p {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+}
+
+#top-content > h1 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: -0.5px;
+  color: #ffffff;
+  width: 568px;
+}
+
+#left-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 49%;
+  border-right: 1px solid #ffffff;
+  padding-top: 120px;
+  padding-bottom: 175px;
+}
+
+#left-content > p {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 72px;
+  letter-spacing: -0.5px;
+  color: #ffffff;
+  width: 367px;
+}
+
+#right-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 49%;
+  gap: 29px;
+  padding-top: 120px;
+  padding-bottom: 179px;
+}
+
+#right-content > p {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -0.5px;
+  color: #ffffff;
+  display: flex;
+  gap: 34px;
+}
+
+#ballonchat {
+  display: flex;
+  width: 103px;
+  height: 103px;
+}
+
+#arrowcircle {
+  width: 64px;
+  height: 64px;
+}
+
+#footer-sixthpage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 128px;
+  flex-direction: column;
+  gap: 48px;
+}
+
+#footer-sixthpage > img {
+  width: 191px;
+  height: 48px;
+}
+
+#footer-sixthpage > p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  color: #606060;
+  width: 565px;
+}
+
+#footer-info {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  border-top: 1px solid #d8d8d8;
+}
+
+#footer-info > p {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: #adadad;
+}
+#footer-info > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: #5468e7;
+}
