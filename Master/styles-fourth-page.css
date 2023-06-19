@@ -1,0 +1,140 @@
+#fourth-page {
+  padding: 152px 135px 56px;
+}
+
+#header-fourthpage {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 94px;
+}
+
+#header-fourthpage > .logo-symbol {
+  display: flex;
+  align-self: flex-start;
+}
+
+#header-fourthtitle {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+#fourth-title1 {
+  display: flex;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  gap: 12px;
+  color: #5468e7;
+}
+
+#fourth-title2 {
+  display: flex;
+  font-weight: 700;
+  font-size: 84px;
+  line-height: 72px;
+  letter-spacing: -0.5px;
+  width: 668px;
+  color: #232340;
+  width: 668px;
+}
+
+#header-fourthtitle > p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #606060;
+  width: 467px;
+  padding-top: 25px;
+}
+
+#firstbutton-fourthpage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: start;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  width: 166px;
+  height: 64px;
+  background: #5468e7;
+  border-radius: 8px;
+  margin-top: 60px;
+}
+
+#content-fourthpage {
+}
+
+#section-card1 {
+  background: url(./images/section-card1.png) center no-repeat;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+#feature-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: #ffffff;
+  width: 166px;
+  height: 40px;
+  background: #908cff;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+#section-card1 > h1 {
+  width: 400px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -0.4px;
+  color: #000000;
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+
+#section-card1 > p {
+  width: 205px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #606060;
+}
+
+#view-button {
+  display: flex;
+  position: absolute;
+  right: 65.5%;
+  bottom: 6%;
+  align-items: center;
+  justify-content: center;
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background: #232340;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#section-card1 > .arrow-right {
+    position: absolute;
+    right: 14%;
+}

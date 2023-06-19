@@ -88,7 +88,7 @@
   width: 293px;
   height: 480px;
   gap: 40px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.171);
+  box-shadow: 0px 0px 77px rgba(0, 0, 0, 0.171);
 }
 
 #card1 > img {
@@ -106,7 +106,7 @@
   width: 293px;
   height: 560px;
   gap: 40px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.171);
+  box-shadow: 0px 0px 77px rgba(0, 0, 0, 0.171);
 }
 
 #card2 > img {
@@ -127,7 +127,7 @@
   width: 293px;
   height: 480px;
   gap: 40px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.171);
+  box-shadow: 0px 0px 77px rgba(0, 0, 0, 0.171);
 }
 
 #card3 > img {
@@ -146,7 +146,7 @@
   width: 293px;
   height: 480px;
   gap: 40px;
-  box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.171);
+  box-shadow: 50px 0px 77px rgba(0, 0, 0, 0.171);
 }
 
 #card4 > img {
@@ -238,6 +238,8 @@
     width: 311px;
     height: 190px;
     border-radius: 32px;
+    box-shadow: 0px 0px 77px rgba(0, 0, 0, 0.171);
+    
   }
 
   #card4 > img {
