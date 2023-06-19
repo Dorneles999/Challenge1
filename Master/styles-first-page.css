@@ -1,8 +1,13 @@
 @import "styles-second-page.css";
+@import "styles-third-page.css";
 
 @font-face {
   font-family: SF Pro Display;
   src: url(../master/SFPRODISPLAYREGULAR.OTF);
+}
+
+section {
+  max-width: 100vw;
 }
 
 body,
